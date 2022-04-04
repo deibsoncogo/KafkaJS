@@ -1,0 +1,19 @@
+{
+  "name": "kafkajs",
+  "version": "1.0.0",
+  "description": "Criação de um micro serviço com o Kafka JS",
+  "main": "index.js",
+  "repository": "git@github.com:deibsoncogo/KafkaJS.git",
+  "author": "Deibson Cogo <deibsoncogo@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "kafkajs": "^1.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sucrase": "^3.20.3"
+  }
+}
